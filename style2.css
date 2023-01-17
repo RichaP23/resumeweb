@@ -1,0 +1,34 @@
+.about{
+    font-family: "Lucida Console", "Courier New", monospace;
+    color:black;
+    background-color:#EDDCD2;
+}
+
+.all{
+    display:flex;
+    flex-direction: column;
+    font-family: 'Charmonman', cursive;
+    font-size:80px;
+    color:black;
+    align-items: center;
+    background-color:#EDDCD2;
+    
+}
+.bar{display:flex;
+    flex-flow:wrap row;
+    justify-content:center;
+    justify-content:space-between;
+    align-items: center;
+    font-size:30px;
+}
+.all a{
+    text-decoration:none;
+    color: black;
+    font-weight: bold;
+}
+.all a:hover{
+    color:seagreen;
+}
+.all span{
+    text-decoration:underline;
+}

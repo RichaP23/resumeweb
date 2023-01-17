@@ -1,0 +1,51 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Contac</title>
+    <link rel="stylesheet" href="style.css">
+    
+  </head>
+  <body>
+    <html>
+      <div class="all">
+        <span>Pragya Richa</span>
+        <div class="bar">
+            <a href="index.html">Home</a>&nbsp;&nbsp;&nbsp;
+            <a href="about.html">About</a>&nbsp;&nbsp;&nbsp;
+            <a href="contact.html">Contact</a>&nbsp;&nbsp;&nbsp;
+            </div>
+    </div>
+      <br>
+     
+      <form action="con.php" method="post">
+        <div id="block4">
+          <br><br>
+          That was all about me!<br>
+          Wanna contact me and stay in touch?<br>
+          I got supplies &#128516<br>
+      </div>
+      <div class="icon">
+        <a href="https://instagram.com/pragya_is_richa?igshid=MWI4MTIyMDE="><img src="icon1.png" width="50px" height="50px"></a>
+        &nbsp
+        <a href="https://mobile.twitter.com/PragyaRicha6"><img src="icont.svg" width="50px" height="50px"></a>
+        &nbsp
+        <a  href="https://pin.it/27F1bUk"><img src="iconp.png"\ width="50px" height="50px"></a>
+      </div><br><br>
+        Or Directly email me<br><br>
+      <label>Email Address : </label>
+      <input type="text" name="email_address" size="40">
+      <br>
+      <label>Your Feedback : </label>
+      <textarea name="feedback" cols="50" rows="10"></textarea>
+      
+      <input type="submit" name="send" value="Submit">
+      
+      </form>
+      <?php include 'con.php';?>
+
+  </body>
+</html>
